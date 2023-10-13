@@ -1,4 +1,4 @@
-public class fixeAusgaben extends Ausgabentypen{
+public class fixeAusgaben extends variableAusgaben {
     private String faelligkeit;
 
     public fixeAusgaben(String faelligkeit, String name, double amount) {
