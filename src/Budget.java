@@ -1,4 +1,5 @@
 public interface Budget {
-    int timeline = 0;
-    int amount = 0;
+    void addCash();
+   void substractCash();
+   void status();
 }
