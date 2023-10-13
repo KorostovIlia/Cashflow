@@ -1,5 +1,6 @@
 public class Test {
-asdf
+    Budget budget = new Budget() {
+    };
 
 
 }
