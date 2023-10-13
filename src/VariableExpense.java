@@ -1,18 +1,18 @@
 public class VariableExpense {
-    private String outV;
+    private String expanse;
     private double amount;
 
     public VariableExpense(String name, double amount) {
-        this.outV = name;
+        this.expanse = name;
         this.amount = amount;
     }
 
-    public String getOutV() {
-        return outV;
+    public String getExpanse() {
+        return expanse;
     }
 
-    public void setOutV(String outV) {
-        this.outV = outV;
+    public void setExpanse(String expanse) {
+        this.expanse = expanse;
     }
 
     public double getAmount() {

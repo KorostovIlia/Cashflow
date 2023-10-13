@@ -13,14 +13,17 @@ public class Balance implements Budget{
         this.balance = balance;
     }
 
+
+
+
     @Override
-    public void addCash() {
-        balance += ;
+    public void addCash(double in) {
+        balance += in;
     }
 
     @Override
-    public void substractCash() {
-
+    public void substractCash(double in) {
+        balance -= in;
     }
 
     @Override

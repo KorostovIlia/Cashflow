@@ -1,5 +1,5 @@
 public interface Budget {
-    void addCash();
-   void substractCash();
+    void addCash(double in);
+   void substractCash(double in);
    void status();
 }
