@@ -7,6 +7,7 @@ public class BalanceMinus {
     public void changeBudget() {
         Balance balance = new Balance(100);
         VariableExpense banana = new VariableExpense("banana", 1);
+        balance.substractCash(banana.getAmount());
         Assertions.assertEquals(99, balance.getBalance(), "You didn't buy a banana");
     }
 }
