@@ -15,7 +15,7 @@ public class Balance implements Budget{
 
     @Override
     public void addCash() {
-
+        balance += ;
     }
 
     @Override
