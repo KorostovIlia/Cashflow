@@ -1,8 +1,8 @@
-public class FixedExpenses {
+public class FixedExpense {
   private double outf;
   private String name;
 
-    public FixedExpenses(double outf, String name) {
+    public FixedExpense(double outf, String name) {
         this.outf = outf;
         this.name = name;
     }
